@@ -1,0 +1,141 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+/* début configuration de la page principale sur les caracteres les marges couleurs... */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+}
+#img {
+	position: absolute;	
+	width:100%;
+	}
+
+/* Configuration du haut de page */
+body a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    background-color: #011c39;
+    justify-content: space-between;
+}
+.onglet p {
+  text-align : center;
+}
+nav .top {
+    display: flex;
+}
+nav .top h1{
+    color: #ffffff;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+nav .top img {
+    width: 7%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+nav .onglet {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+nav .onglet p {
+    color: #ffffff;
+    margin-right: 40px;
+    cursor: pointer;
+}
+nav .onglet p:hover {
+    color: #0a8bdb;
+}
+.center {
+  text-align: center;
+  position: absolute;
+  top:12%;
+  left:35%;
+  width: 550px;
+  height: 770px;
+  background: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.center h1 {
+  text-align: center;
+  font-size: 50px;
+}
+header{
+  padding: 10px 10px;
+}
+.email {
+  margin-left: 10px;
+  padding: 8px 35px;
+  background-color:rgb(250, 245, 245);
+  align-items: center;
+  font-size: 15px;
+  border-radius: 25px 25px;
+  border: white;
+}
+.mdp {
+  margin-left: 10px;
+  padding: 8px 35px;
+  background-color: rgb(250, 245, 245);
+  align-items: center;
+  font-size: 15px;
+  border-radius: 25px 25px;
+  border: white;
+}
+.pass {
+  color:#5C5D61;
+  font-size: 15px;
+}
+.login{
+  text-decoration: none;
+  font-weight: 2px;
+  padding: 8px 80px;
+  background-color: #3d69e1;
+  color: white;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 4px;
+  border: none;
+  width: 220px;
+}
+.login:hover {
+  background: #2a4797;
+}
+.compte {
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 8px 60px;
+  background-color:white;
+  border: 2px solid;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 25px 25px;
+  border: 2px solid black;
+  color: black;
+  transition: width 2s;
+}
+.compte:hover{
+  color:white;
+  background-color: black;
+}
+.details {
+  text-align: center;
+  font-size: 15px;
+  background: white;
+  border-radius: 10px;
+  color:black;
+  width: 550px;
+  height: 134px;
+  border: 2px solid black;
+}

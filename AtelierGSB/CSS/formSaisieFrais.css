@@ -1,0 +1,139 @@
+/* Body */
+body {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  background-color: #f2f2f2;
+  color: #000000;
+}
+
+/* Form */
+form {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Fieldsets */
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Legend */
+legend {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  background-color: #011c39;
+  justify-content: space-between;
+}
+nav .top {
+  display: flex;
+}
+nav .top h1{
+  color: #ffffff;
+  padding-left: 5px;
+  padding-top: 15px;
+}
+nav .top img {
+  width: 7%;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+nav .onglet {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+nav .onglet p {
+  color: #ffffff;
+  margin-right: 40px;
+  cursor: pointer;
+}
+nav .onglet p:hover {
+  color: #0a8bdb;
+}
+input[type="submit"],
+input[type="reset"],
+button {
+  display: inline-block;
+  background-color: #011c39;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+  background-color: #0a8bdb;
+}
+
+/* Hors Forfait */
+#hors_forfait_container div {
+    display: inline-block;
+    vertical-align: middle;
+}
+#hors_forfait_container label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+#hors_forfait_container input {
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+  text-align: center;
+}
+
+/* Error Messages */
+input:invalid {
+  border-color: #011c39;
+}
+
+a {
+  text-decoration: none;
+}

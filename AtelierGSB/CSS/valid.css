@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* début configuration de la page principale sur les caracteres les marges couleurs... */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.titre { 
+  width : 180 ;  
+  clear:left; 
+  float:left; 
+} 
+a {
+  text-decoration: none;
+}
+
+.zone { 
+  float : left; 
+  color:CC8855 
+}
+
+#img {
+	position: absolute;	
+	width:100%;
+	}
+
+/* Configuration du haut de page */
+body a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    background-color: #011c39;
+    justify-content: space-between;
+}
+.onglet p {
+  text-align : center;
+}
+nav .top {
+    display: flex;
+}
+nav .top h1{
+    color: #ffffff;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+nav .top img {
+    width: 7%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+nav .onglet {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+nav .onglet p {
+    color: #ffffff;
+    margin-right: 40px;
+    cursor: pointer;
+}
+nav .onglet p:hover {
+    color: #0a8bdb;
+}
+.repas, .nuitee, .etape, .km, .zone, .hfLib1, .hfMont1{
+  border-radius: 20px;
+  border: white;
+}

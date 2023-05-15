@@ -1,0 +1,164 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+}
+a {
+  text-decoration: none;
+}
+.titre { 
+  width: 180px;  
+  clear: left; 
+  float: left; 
+} 
+.zone { 
+  float: left; 
+  color: #CC8855; 
+}
+#img {
+  position: absolute;	
+  width: 100%;
+}
+body a {
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  background-color: #011c39;
+  justify-content: space-between;
+}
+nav .top {
+  display: flex;
+}
+nav .top h1{
+  color: #ffffff;
+  padding-left: 5px;
+  padding-top: 15px;
+}
+nav .top img {
+  width: 7%;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+nav .onglet {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+nav .onglet p {
+  color: #ffffff;
+  margin-right: 40px;
+  cursor: pointer;
+}
+nav .onglet p:hover {
+  color: #0a8bdb;
+}
+.repas, .nuitee, .etape, .km, .zone, .hfLib1, .hfMont1{
+  border-radius: 20px;
+  border: white;
+}
+/* Style pour le corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+/* Style pour le div contenant le titre et le formulaire */
+div[name="droite"] {
+  float: left;
+  width: 100%;
+  margin-top: -100px;
+}
+
+/* Style pour le div contenant le titre */
+div[name="haut"] {
+  
+  height: 10%;
+  float: left;
+}
+
+/* Style pour le div contenant le formulaire */
+div[name="bas"] {
+  
+  clear: left;
+  background-color: #77aadd;
+  color: white;
+  height: 100%;
+}
+
+/* Style pour le titre principal */
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style pour le sous-titre */
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Style pour les labels */
+label {
+  font-size: 16px;
+}
+
+/* Style pour les zones de saisie */
+input.zone {
+  font-size: 16px;
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+}
+
+/* Style pour les tables */
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Style pour les cellules des tableaux */
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style pour les en-têtes de colonnes des tableaux */
+th {
+  background-color: #011c39;
+  color: white;
+}
+
+/* Style pour les lignes de données des tableaux */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style pour les boutons */
+button {
+  background-color: #011c39;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+
+

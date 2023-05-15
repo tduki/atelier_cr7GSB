@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+}
+.titre { 
+  width: 180px;  
+  clear: left; 
+  float: left; 
+} 
+.zone { 
+  float: left; 
+  color: #CC8855; 
+}
+a {
+  text-decoration: none;
+}
+#img {
+  position: absolute;	
+  width: 100%;
+}
+body a {
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  background-color: #011c39;
+  justify-content: space-between;
+}
+nav .top {
+  display: flex;
+}
+nav .top h1{
+  color: #ffffff;
+  padding-left: 5px;
+  padding-top: 15px;
+}
+nav .top img {
+  width: 7%;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+nav .onglet {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+nav .onglet p {
+  color: #ffffff;
+  margin-right: 40px;
+  cursor: pointer;
+}
+nav .onglet p:hover {
+  color: #0a8bdb;
+}
+
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+button {
+            background-color: #011c39;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        /* Style pour les champs de formulaire */
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        /* Style pour les étiquettes */
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+        }
+        /* Style pour les tableaux */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #011c39;
+            color: white;
+        }
+        /* Style pour les messages d'erreur */
+        .error {
+            color: red;
+        }
+
